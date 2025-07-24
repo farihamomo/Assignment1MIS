@@ -1,0 +1,163 @@
+body{
+    background-color: rgb(100, 3, 3);
+
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+}
+.default{
+    background-color: #f708cb;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  li {
+    margin: 0 15px;
+  }
+  
+  li a {
+    display: block; 
+    color: rgb(1, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #f708cb;
+  }
+  .logo{
+    height: 60px;
+    width: 60px;
+    float: left;
+  }
+ .div1{
+    grid-row-start: 2;
+    grid-row-end:3 ;
+    grid-column-start:1 ;
+    grid-column-end: 10;
+    
+
+ }
+ .div2{
+    grid-row-start: 6;
+    grid-row-end:7;
+    grid-column-start:1;
+    grid-column-end: 3;
+    
+
+ }
+ .div3{
+    grid-row-start: 6;
+    grid-row-end:7;
+    grid-column-start:8;
+    grid-column-end: 8;
+    
+
+ }
+ .div4{
+    grid-row-start:6 ;
+    grid-row-end:7;
+    grid-column-start:5;
+    grid-column-end: 6;
+    
+
+ }
+
+    
+
+
+ .pic{
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 1400px;
+}
+.pic2{
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+}
+.pic3{
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+}
+p{
+    color: #ffffff;
+    text-align: left;
+    justify-content: flex;
+    
+}
+h1{
+    color: rgb(68, 237, 65);
+    text-align: center;
+}
+.abt{
+    align-items: center;
+    height: 100px;
+    width: 100px;
+
+}
+.div6{
+    grid-row-start:1 ;
+    grid-row-end:1;
+    grid-column-start:1;
+    grid-column-end:;
+    justify-content: left;
+    
+
+ }
+ .div7{
+    grid-row-start:4;
+    grid-row-end:5;
+    grid-column-start:1;
+    grid-column-end: 2;
+    
+
+ }
+ .div8{
+    grid-row-start:7 ;
+    grid-row-end:8;
+    grid-column-start:1;
+    grid-column-end: 2;
+    
+
+ }
+ .contact{
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 1400px;
+
+ }
+ h3{
+    color: rgb(68, 237, 65);
+    text-align: center;
+    justify-content: center;
+
+}
+h2{
+    color: rgb(68, 237, 65);
+    text-align: center;
+    justify-content: center;
+}
+
+ 
